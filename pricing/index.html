@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Prijzen</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../home/defaultStyle.css" />
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-md shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../home/index.html">
+          <img src="img/logo.PNG" alt="ans24.nl" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="../home/index.html">Startpagina</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" href="../pricing/index.html">Prijzen</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Bloggen</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Product en recensies</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end my-2" id="collapsibleNavbar">
+          <a href="../login/index.html" class="px-3 py-1 btn btn-outline-primary  mx-2" id="button-1">Login</a>
+          <a href="../signup/index.html" class="px-3 py-1 btn btn-primary  mx-2" id="button-2">Sign up</a>
+        </div>
+        <a href="../login/index.html" class="px-3 py-1 btn btn-outline-primary" id="button-3">Login</a>
+      </div>
+      
+    </nav>
+  </header>
+  
+  <main>
+
+       <!-- start vandaag met -->
+
+    <div id="checkoption" class="container">
+      <h1 class=" mt-5 pt-5 text-center"> <b>Start vandaag met het genereren van Leads</b> </h1>
+      <div class="container-fluid" style="max-width: 830px; margin: auto;">
+        <div class="row text-sm-center pt-3">
+          <div class="col-sm-4"><p><i class="fa-solid fa-check p-1"></i> Live demonstratie</p></div>
+          <div class="col-sm-4"><p><i class="fa-solid fa-check p-1"></i> Opbouw in 5 minuten</p></div>
+          <div class="col-sm-4"><p><i class="fa-solid fa-check p-1"></i> Op elk moment annuleren</p></div>
+        </div>
+      </div>
+    </div>
+
+        <!-- end vandaag met -->
+
+       <!-- start package button -->
+
+    <div class="container mt-5 text-center">
+      <ul id="btn-package" role="tablist" class="justify-content-center list-unstyled nav-tabs shadow px-2 py-1 mb-5 bg-body rounded px-1 p-1 btn-group btn-group-lg gap-2">
+        <li class="nav-item" role="presentation">
+          <button class="btn btn-outline-primary border-0" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly-package" role="tab" aria-controls="monthly-package" type="button" aria-selected="false">Maandelijks</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="btn active btn-outline-primary border-0" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly-package" role="tab" aria-controls="yearly-package" type="button"aria-selected="true">Jaarlijks</button>
+        </li>
+      </ul>
+    </div>
+      
+      <!-- end package button -->
+
+      <!-- start package card -->
+    <div class="tab-content pb-sm-5" id="pricingTabsContent">
+      <!--monthly plan-->
+      <div id="monthly-package" class="tab-pane fade" role="tabpanel" aria-labelledby="monthly-tab">
+      <div class="row package-wrapper" style="max-width: 700px; margin: auto;">
+        <div id="standard" class="col-sm-6 zoom-hover">
+          <div class="container mt-5 card shadow" style="width: 20rem;">
+            <div class="card-body">
+              <div class="card-header h3 bg-white text-uppercase text-center"><b>Standaard</b></div>
+              <h4 class="card-subtitle mb-2 text-primary mt-3 text-center"> <b><i class="fa-solid fa-euro-sign"></i> 120 / maand</b> </h4>
+              <p class="card-text mt-3">Verwelkom uw websitebezoeker elk moment, zelfs wanneer u offline bent.</p>
+              <a href="#"><button id="button" class="btn btn-lg m-3 mx-auto" type="button" value="button">Begin</button></a>
+              <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Assistent ANS <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Contact Leadbot <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Calender handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              <p><i id="package-icon" class="fa-solid fa-check p-1"></i>          Socialmedia handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Leadpage handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+            </div>
+          </div>
+        </div>
+          <div id="premium" class="col-sm-6 zoom-hover mt-4 mt-sm-0" >
+            <div class="container mt-5 card shadow" style="width: 20rem;">
+              <div class="card-body">
+                <div class="card-header h3 bg-white text-uppercase text-center"><b>Premie</b></div>
+                <h4 class="card-subtitle mb-2 text-primary mt-3 text-center"> <b><i class="fa-solid fa-euro-sign"></i> 395 / maand</b> </h4>
+                <p class="card-text mt-3">Verwelkom uw websitebezoeker elk moment, zelfs wanneer u offline bent.</p>
+                <a href="#"><button id="button" class="btn btn-lg m-3 mx-auto" type="button" value="button">Begin</button></a>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Assistent ANS <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Real chatbot with chatgpt AI <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Contact Leadbot <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Calender handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i>          Socialmedia handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Leadpage handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--monthly plane end-->
+
+      <!--yearly plan-->
+      <div id="yearly-package" class="tab-pane fade show active" role="tabpanel" aria-labelledby="yearly-tab">
+        <div class="row package-wrapper" style="max-width: 700px; margin: auto;">
+          <div id="standard" class="col-sm-6 zoom-hover">
+            <div class="container mt-5 card shadow" style="width: 20rem;">
+              <div class="card-body">
+                <div class="card-header h3 bg-white text-uppercase text-center"><b>Standaard</b></div>
+                <h4 class="text-primary card-subtitle mb-2 mt-3 text-center"> <b><i class="fa-solid fa-euro-sign"></i> 80 / maand</b></span> </h4>
+                <h4 class="card-subtitle mb-2 mt-3 text-center text-muted fs-5"> <del> €120 / maand </del></span> </h4>
+                <h4 class=" text-danger h6 card-subtitle mb-2 mt-3 text-center"> <b>Save 33% on yearly Standard</b> </h4>
+                <p class="card-text mt-3">Verwelkom uw websitebezoeker elk moment, zelfs wanneer u offline bent.</p>
+                <a href="#"><button id="button" class="btn btn-primary btn-lg m-3 mx-auto" type="button" value="button">Begin</button></a>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Assistent ANS <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Contact Leadbot <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Calender handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i>          Socialmedia handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Leadpage handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+              </div>
+            </div>
+          </div>
+            <div id="premium" class="col-sm-6 zoom-hover mt-4 mt-sm-0">
+              <div class="container mt-5 card shadow" style="width: 20rem;">
+                <div class="card-body">
+                  <div class="card-header h3 bg-white text-uppercase text-center"><b>Premie</b></div>
+                  <h4 class="card-subtitle mb-2 text-primary mt-3 text-center"> <b><i class="fa-solid fa-euro-sign"></i> 295 / maand</b> </h4>
+                  <h4 class="card-subtitle mb-2 mt-3 text-center text-muted fs-5"> <del> €395 / maand </del></span> </h4>
+                  <h4 class=" text-danger h6 card-subtitle mb-2 mt-3 text-center"> <b>Save 25% on yearly Standard</b> </h4>
+                  <p class="card-text mt-3">Verwelkom uw websitebezoeker elk moment, zelfs wanneer u offline bent.</p>
+                  <a href="#"><button id="button" class="btn btn-primary btn-lg m-3 mx-auto" type="button" value="button">Begin</button></a>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Assistent ANS <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Real chatbot with chatgpt AI <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Contact Leadbot <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Calender handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i>          Socialmedia handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                  <p><i id="package-icon" class="fa-solid fa-check p-1"></i> Leadpage handler <i id="icon-i" class="fa-solid fa-info p-1"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--yearly plane end-->
+    </div>
+    
+
+      <!-- start advies plan -->
+
+      <div class="container pt-5 mt-5 pb-5">
+        <div class="p-5 bg-custom rounded text-center align-items-center" style="background-image: url(img/Advies-bg.png); background-position: right; background-repeat: no-repeat; background-size: cover;">
+          <h1 class="mt-5 text-white">Plan een adviesgesprek</h1>
+          <p class="mt-3 h5 text-white">Plan een online adviesgesprek met een van onze marketing experts en bespreek de mogelijkheden voor jouw website.</p>
+           <a href="#"> <button type="button" class=" mt-5 p-2 px-3 btn btn-light">Plan adviesgesprek</button> </a> 
+        </div>
+    </div>
+
+  <!-- end advies plan -->
+
+  <!-- start veelgestelde vragen -->
+    <div class=" mt-5 pb-5" style="background-color: #f7f8ff;">
+      <div class="container-fluid">
+      <h2 class="py-5 text-center"> <b>Veelgestelde vragen</b></h2>
+
+      <div class="row package-wrapper">
+        <div class="col-sm-6 my-2">
+          <div class="card  mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>Hoe installeer ik leadbot op mijn website? </b> </h5>
+              <p id="vragen-text" class="card-text mt-3">De leadbot kan binnen 5 minuten op elke website worden geïnstalleerd door gewoon een &lt;script&gt;-tag in de &lt;head&gt;-tag te plaatsen</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>Hoe kan ik stoppen met het gebruik van uw service?</b> </h5>
+              <p class="card-text mt-3">Einde van uw factureringscyclus als u niet betaalt, wordt het automatisch geannuleerd of u kunt het abonnement eenvoudig in uw account annuleren</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>Welk pakket moet ik kiezen?</b> </h5>
+              <p class="card-text mt-3">Als u niet kunt beslissen welke pagina voor u is, kunt u <a href="#" class="text-decoration-none" >contact met</a> ons opnemen, wij zullen u helpen beslissen</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>Hoe plannen mijn bezoekers een video call in?</b> </h5>
+              <p class="card-text mt-3">U kunt een automatische handler kiezen met uw leadbot, zodat bezoekers een afspraak kunnen maken voor een videogesprek op de website</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>zal het zeker mijn omzet verhogen?</b> </h5>
+              <p class="card-text mt-3">Ja! wanneer u bezoekers heeft, zal onze leadbot ze verwelkomen en naar uw whatsapp of e-mail sturen. zodat u op elk moment contact met hen kunt opnemen en producten aan hen kunt verkopen.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>kan ik een aangepast formulierveld instellen?</b> </h5>
+              <p class="card-text mt-3">Ja! we zullen een aangepast element toevoegen aan het contactformulier voor uw behoefte.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 my-2">
+          <div class="card mx-3 shadow p-4">
+            <div class="card-body">
+              <h5 class="card-title h4"> <b>kan ik ChatGpt AI-bot krijgen?</b> </h5>
+              <p class="card-text mt-3">Ja! wanneer je wilt, kunnen we je een echte chatbot op maat maken met ChatGpt</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    <!-- end veelgestelde vragen -->
+      <!-- end veelgestelde vragen -->
+        
+         
+       
+        
+        
+  </main>
+    <!-- place footer here -->
+    <footer style="background-color: #292940;">
+      <div class="container-fluid">
+          <div class="row pt-5">
+              <div class="col-md-8" id="footer">
+                  <div class="row">
+                      <div class="col-6">
+                          <a href="../home/index.html" class="active">Startpagina</a>
+                          <a href="../pricing/index.html">Prijzen</a>
+                          <a href="">Bloggen</a>
+                          <a href="">Product en recensies</a>
+                          <a href="../login/index.html">login</a>
+                      </div>
+                      <div class="col-6">
+                        <a href="#footer" class="active">BLOG</a>
+                        <a href="#footer">Blog Post 1</a>
+                        <a href="#footer">Blog Post 2</a>
+                        <a href="#footer">Blog Post 3</a>
+                        <a href="#footer">Blog Post 4</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4" id="footer">
+                  <div class="row mt-4 mt-md-0">
+                      <div class="col">
+                          <a href="#footer" class="active pb-0 pb-md-5">CONTACT</a>
+                              <p style="color: #fff;"><b>Dragonder 13A,</b> 5554Gm Valkenswaard</p>
+                              <p style="color: #fff;"><b>contact@answer24.nl <br> T. +31 402 089 208</b></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr class="footer-line">
+          <div class="py-5" style="display: flex; max-width: 1320px; margin: auto;"> 
+              <p style="color: #fff;" class="px-3">copyright &copy; <a href="#" class=" text-primary">www.answer24.nl</a> . All right reserved .</p>
+          </div>
+      </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
